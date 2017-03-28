@@ -53,12 +53,18 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
     
     });
     
-`jit*` - **J**asmine <i>Generator<i> Spec (<b>it</b>)
+`jit*` - **J**asmine <i>Generator<i> Spec (<b>it</b>) (it with added generator functionality)
 
     it('spec title', co.wrap(function *(){
         yield //this line is executed first
         yield //this line is executed next
     }));
+    
+`jxit` - **J**asmine Pending Spec (<b>xit</b>)
+ 
+     xit('should ', () => {
+     
+     }).pend('pending reason...');
 
 `jits` - **J**asmine Spec (<b>it</b> and starts your spec with the word <b>s</b>hould)
 
@@ -71,12 +77,24 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
     beforeEach(() => {
 
     });
+    
+`jba` - **J**asmine **b**efore<b>A</b>ll (setup)
+
+    beforeAll(() => {
+
+    });
 
 `jae` - **J**asmine **a**fter<b>E</b>ach (teardown)
 
     afterEach(() => {
 
     });
+    
+ `jaa` - **J**asmine **a**fter<b>A</b>ll (teardown)
+ 
+     afterAll(() => {
+ 
+     });
 
 ## Jasmine Matchers
 `jtb` - **J**asmine **t**o<b>B</b>e `expect(x).toBe(y));`
