@@ -1,5 +1,7 @@
 # Introduction
 
+##### Note: This is not my original work, based on this [repository](https://github.com/gbritting/jasmine-jetbrains-live-templates).
+
 ### [Jasmine](http://jasmine.github.io/) ES6 Live Templates for use in [JetBrains](http://www.jetbrains.com) IDEs 
 
 Jasmine is "a behavior-driven development (BDD) testing framework for JavaScript, Jasmine doesn’t rely on browsers, the Document Object Model (DOM) or other JavaScript libraries. Great for websites, node.js server-side coding, or any project running JavaScript, its clean syntax makes writing tests a breeze". ([Pivotal Labs](http://pivotallabs.com/tools/))
