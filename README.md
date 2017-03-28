@@ -52,6 +52,13 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
     it('spec title', () => {
     
     });
+    
+`jit*` - **J**asmine <i>Generator<i> Spec (<b>it</b>)
+
+    it('spec title', co.wrap(function *(){
+        yield //this line is executed first
+        yield //this line is executed next
+    }));
 
 `jits` - **J**asmine Spec (<b>it</b> and starts your spec with the word <b>s</b>hould)
 

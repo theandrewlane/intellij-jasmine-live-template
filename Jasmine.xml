@@ -9,16 +9,6 @@
             <option name="JAVA_SCRIPT" value="true"/>
         </context>
     </template>
-    <template name="jit*" value="it('$IT$', co.wrap(function *(){&#10;    $END$&#10;}));"
-              description="Jasmine spec with co.wrap() generator" toReformat="false" toShortenFQNames="true">
-        <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true"/>
-        <context>
-            <option name="DART" value="false"/>
-            <option name="HAML" value="false"/>
-            <option name="JADE" value="false"/>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
     <template name="jits" value="it('should $IT$', () =&gt; {&#10;    $END$&#10;});"
               description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
         <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true"/>
@@ -310,6 +300,18 @@
             <option name="DART" value="false"/>
             <option name="HAML" value="false"/>
             <option name="JADE" value="false"/>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="jit*"
+              value="it('$IT$', co.wrap(function *(){&#10;    yield $YIELD$;&#10;    yield $YIELD2$;&#10;    $END$&#10;}));"
+              description="Jasmine spec with co.wrap() generator" toReformat="false" toShortenFQNames="true">
+        <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true"/>
+        <variable name="YIELD" expression="" defaultValue="&quot;this line is executed first&quot;"
+                  alwaysStopAt="true"/>
+        <variable name="YIELD2" expression="" defaultValue="&quot;this line is executed next&quot;"
+                  alwaysStopAt="true"/>
+        <context>
             <option name="JAVA_SCRIPT" value="true"/>
         </context>
     </template>
