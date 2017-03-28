@@ -1,6 +1,6 @@
 # Introduction
 
-##### Note: This is not my original work, based on this [repository](https://github.com/gbritting/jasmine-jetbrains-live-templates).
+##### Note: This is not my original work, started with this [repository](https://github.com/gbritting/jasmine-jetbrains-live-templates).
 
 ### [Jasmine](http://jasmine.github.io/) ES6 Live Templates for use in [JetBrains](http://www.jetbrains.com) IDEs 
 
