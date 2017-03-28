@@ -55,7 +55,7 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
     
 `jit*` - **J**asmine <i>Generator<i> Spec (<b>it</b>) (it with added generator functionality)
 
-    it('spec title', co.wrap(function *(){
+    it('spec title', co.wrap(function *() {
         yield //this line is executed first
         yield //this line is executed next
     }));
