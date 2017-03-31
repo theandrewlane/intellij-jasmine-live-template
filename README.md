@@ -38,7 +38,7 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
 	
 - MacOS: ~/Library/Preferences/[product name][version number]/templates
 
-##Jasmine Suite, Spec, Setup and Teardown Live Templates
+## Jasmine Suite, Spec, Setup and Teardown Live Templates
 <small>(NOTE: these first 3 do not follow the camel-case abbreviation)</small>
 
 `jdes` - **J**asmine Suite (<b>des</b>cribe)
@@ -121,7 +121,7 @@ To install this template, copy ```Jasmine.xml``` to the matching folder and rest
 
 `jtt` - **t**o<b>T</b>hrow `expect(fn).toThrow(e));`
 
-#### Negated Matchers
+## Negated Matchers
 `jntb` - **n**ot **t**o<b>B</b>e `expect(x).not.toBe(y));`
 
 `jntbd` - **n**ot  **t**o<b>B</b>e<b>D</b>efined `expect(x).not.toBeDefined());`
